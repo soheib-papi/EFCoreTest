@@ -31,8 +31,6 @@ public class Employee: BaseEntity
     public int? ReportsTo { get; set; }
     public Employee? ReportsToNavigation { get; set; }
 
-    public ICollection<Employee> InverseReportsToNavigation { get; set; }
-
     public ICollection<Order> Orders { get; set; }
 
 }

@@ -6,7 +6,7 @@ public class Order: BaseEntity
 
     public string? OrderNo { get; set; }
 
-    public string? CustomerId { get; set; }
+    public int? CustomerId { get; set; }
     public Customer? Customer { get; set; }
 
     public int? EmployeeId { get; set; }
